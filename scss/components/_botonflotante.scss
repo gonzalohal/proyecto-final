@@ -1,0 +1,17 @@
+.botonflotante{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    button{
+        position: absolute;
+        top: 800px;
+        border: 0;
+        color: inherit;
+        background: none;
+        margin-left: 92%;
+        &:hover{
+            transform: scale(1.1);
+            transition: 500ms;
+        }
+    }
+}

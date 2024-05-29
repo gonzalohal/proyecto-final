@@ -1,0 +1,120 @@
+.img-sec1-servicios{
+    background-image: url(../assets/img/servicios_sections/fondo-sec1.png);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+
+    .servicios-section-1{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        .servicios-sec1{
+            @include flex (row,center,center);
+            width: 60vw;
+            height: 100vh;
+            background-image: url(../assets/img/servicios_sections/sec1.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            h1{
+                text-align: center;
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                font-size: 3rem;
+                color: $white;
+                padding: .625rem 6.5rem;
+                border: none;
+                background-image: linear-gradient(to right, $pink, $purple);
+                border-radius: 3.125rem;
+                border-color: $white;
+                border-width: .4875rem;
+                border-style:solid;
+                filter: drop-shadow(2px 8px 5px rgba(0, 0, 0, 0.241));
+            }
+        }
+    }
+    
+    .inicio-section-2 {
+        @include flex (column,center,center);
+        text-align: center;
+        flex-wrap: wrap;
+        .txt-sec22{
+            width: 70%;
+            h2{
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                font-size: 3rem;
+                color: $pink;
+                
+            }
+            p{
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                font-size: 1.5rem;
+                color: $grey;
+                margin-bottom: 1.25rem;
+            }
+        }
+        
+    }
+
+    .portfolio-section-4{
+        @include flex (row, center,center);
+        flex-wrap: wrap;
+        padding-top: 9.375rem;
+        .servicios-section-4-img{
+            width: 31.25rem;
+        }
+        .servicios-section-4-text{
+            width: 31.25rem;
+            h4{
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                font-size: 3rem;
+                color: $pink;
+                width: 25rem;
+            }
+            p{
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                font-size: 1.5rem;
+                color: $grey;
+                width: 30rem;
+            }
+        }
+        
+    }
+    
+
+    .inicio-section-4{
+        @include flex(row,center,center);
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 9.375rem;
+        .inicio-section-4-text{
+            width: 31.25rem;
+            h4{
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                font-size: 3rem;
+                color: $blue;
+                width: 25rem;
+            }
+            p{
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                font-size: 1.5rem;
+                color: $grey;
+                width: 30rem;
+            }
+        }
+        .inicio-section-4-img{
+            width: 31.25rem;
+        }
+        
+    }
+    
+
+}

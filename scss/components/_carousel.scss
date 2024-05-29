@@ -1,0 +1,50 @@
+.carousel{
+    width: 100%;
+    filter: drop-shadow(2px 8px 5px #F761A7);
+    .slider{
+        display: flex;
+        overflow: hidden;
+        .slideTrack{
+            display: flex;
+            animation: scroll 10s linear infinite;
+        }
+    }
+}
+
+.carousel2{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(100%);
+    .slider{
+        display: flex;
+        overflow: hidden;
+        .slideTrack-2{
+            display: flex;
+            align-items: center;
+            animation: scroll 10s linear infinite;
+        }
+    }
+    &:hover .slideTrack-2{
+        animation-play-state: paused;
+    }
+    
+}
+
+@keyframes scroll{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+@keyframes slider{
+    from{
+        transform: translateX(-9%);
+    }
+    to{
+        transform: translateX(-109%);
+    }
+}
+

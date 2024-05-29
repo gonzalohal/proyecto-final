@@ -1,0 +1,77 @@
+
+
+header {
+    display: grid;
+    grid-template-columns: 18% 62% 20%;
+    grid-template-areas: "space1 space2 space3";
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    .nav-space2{
+        /* width: 60%; */
+        position: relative;
+        grid-area: space2;
+        .navBar{
+            // animation:navBar .5s cubic-bezier(.25,.46,.45,.94) both;
+            @include grid(30% 20% 50%,"navBar1 navBar2 navBar3",center,center);
+            width: 100%;
+            margin: 1.25rem;
+            gap: .9375rem;
+            background-color: $white-grey;
+            border-radius: 3.125rem;
+            border-color: $white;
+            border-width: .3125rem;
+            border-style:solid;
+            filter: drop-shadow(2px 8px 5px rgba(0, 0, 0, 0.241));
+            position: absolute;
+            top: 0;
+            & #toogle, & label{
+                display: none;
+            } 
+            .navBar1{
+                grid-area: navBar1;
+                text-align: center;
+                padding-top: .5rem;
+            }
+            
+            .navBar2{
+                grid-area: navBar2;
+            }
+            .menu{
+                grid-area: navBar3;
+
+                ul{
+                    display: flex;
+                    flex-direction: row;
+                    gap: .9375rem;
+                    justify-content: center;
+                    align-items: center;
+                    padding-right: 10%;
+                    margin-bottom: 0rem;
+                    li{
+                        list-style: none;
+                        .colornav{
+                            color: $pink;
+                            font-weight: 700;
+                        }
+                        a{
+                            text-decoration: none;
+                            font-family: "Poppins", sans-serif;
+                            font-size: medium;
+                            color: $grey;
+                            &:hover{
+                                color: $pink;
+                                font-weight: 700;
+                            }
+                        }
+                        
+                    }
+                }
+                
+                
+            }
+        }
+    }
+}

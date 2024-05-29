@@ -1,0 +1,152 @@
+@media (max-width:1270px){
+    .cuerpo {
+        background-position-y: -150px;
+        background-size: 100% 50%;
+        .inicio-section-2{
+            button{
+                a{
+                    margin: 1.25rem 7rem;
+                }
+            }
+            .txt-sec2{
+                margin: 20.625rem 0rem 4rem;
+                width: 70%;
+            }
+        
+            .txt-sec22{
+                width: 70%;
+            }
+        }
+        .inicio-section-4{
+            .inicio-section-4-text {
+                h4{
+                    text-align: center;
+                    margin-left: 10% ;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+        
+    }
+
+    .botonflotante {
+        button{
+            margin-left: 84%;
+        }
+    }
+    .img-sec1-servicios{
+        background-image: url(../assets/img/servicios_sections/fondo-sec1.png);
+        background-size: 100% 18%;
+        background-repeat: no-repeat;
+    }
+
+    header{
+        .nav-space2{
+            .navBar{
+                @include flex(row, space-between, center);
+                flex-wrap: wrap;
+                .navBar1 {
+                    padding-top: 1rem;
+                    padding-left: 2rem;
+                }
+                .menu{
+                    width: 100%;
+                    height: 0;
+                    overflow: hidden;
+                    ul{
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 0.5rem 0;
+                    }
+                }
+                & label{
+                    display: inline-flex;
+                    color: $pink;
+                    padding-right: 10%;
+                    padding-top: 1%;
+                }
+                & #toogle:checked ~ .menu{
+                    height: 100%;
+                }
+                
+            } 
+        }
+    }
+
+
+
+    
+
+    .galeria-section2{
+        .gal1-s2{
+            width: 100%;
+        }
+    }
+
+    .img-sec1-servicios{
+        .portfolio-section-4{
+            .servicios-section-4-text{
+                order: 1;
+                padding-bottom: 3.125rem;
+                h4{
+                    text-align: center;
+                    margin-left: 10% ;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+            .servicios-section-4-img{
+                order: 2;
+            }
+        }
+    }
+
+    .img-sec1-nosotros{
+        .sec2-nosotros{
+            .text2-sec2-nosotros{
+                h2{
+                    text-align: center;
+                    font-size: 4rem;
+                    padding: .625rem 6.5rem;
+                }
+                h3{
+                    text-align: center;
+                    font-size: 4rem;
+                    padding: .625rem 6.5rem;
+                }
+                p{
+                    text-align: center;
+                    font-size: 1.5rem;
+                    padding: .625rem 6.5rem;
+                }
+                a{
+                    p{
+                        font-size: 1.5rem;
+                        padding: .625rem 6.5rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        .footerstyle{
+            background-size: cover;
+            background-position: center;
+            div> p{
+                font-size: 1rem;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    
+
+    
+
+}

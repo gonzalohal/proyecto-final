@@ -1,0 +1,98 @@
+.artilces-inicio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 4.6875rem;
+    justify-content: center;
+    gap: 2.5rem;
+    /* max-width: 1200px; */
+    .art0{
+        width: 20%;
+    }
+    
+    .art1{
+        width: 22.5rem;
+        padding: 40px;
+        background-color: $white;
+        border-radius: 5.625rem;
+        filter: drop-shadow(2px 8px 5px $pink);
+        img{
+            padding: 2.5rem 1.875rem 1.875rem 0rem;
+        }
+        h3{
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+            font-size: 1.875rem;
+            color: $pink;
+        }
+        p{
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+            font-size: 1rem;
+            color: $grey;
+        }
+    }
+    
+    .art2{
+        width: 22.5rem;
+        padding: 40px;
+        margin: 0rem 1.5625rem;
+        background-color: $white;
+        border-radius: 5.625rem;
+        filter: drop-shadow(2px 8px 5px $purple);
+        img{
+            padding: 1.875rem 0rem 1.875rem 0rem;
+        }
+        h3{
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+            font-size: 1.875rem;
+            color: $purple;
+        }
+        p{
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+            font-size: 1rem;
+            color: $grey;
+        }
+    }
+    
+    .art3{
+        width: 22.5rem;
+        padding: 40px;
+        background-color: $white;
+        border-radius: 5.625rem;
+        filter: drop-shadow(2px 8px 5px $card-sky-blue);max-width: 500px;
+        img{
+            padding: 1.875rem 0rem 1.875rem 0rem;
+        }
+        h3{
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+            font-size: 1.875rem;
+            color: $card-sky-blue;
+        }
+        p{
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+            font-size: 1rem;
+            color: $grey;
+        }
+    }
+    .art4{
+        width: 20%;
+    }
+    
+    .art5{
+        filter: drop-shadow(2px 8px 5px $card-blue-purple);
+    }
+    
+    .art6{
+        filter: drop-shadow(2px 8px 5px $card-lavand);
+    }
+    
+    .art7{
+        filter: drop-shadow(2px 8px 5px $card-purple);
+    }
+}
+

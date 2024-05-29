@@ -1,0 +1,18 @@
+@media (max-width:1440px){
+    
+    header{
+        .nav-space2{
+            .navBar{
+                @include grid(30% 70%,"navBar1 navBar3",center,center);
+            }
+        }
+    }
+        
+    footer{
+        .footerstyle{
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+}

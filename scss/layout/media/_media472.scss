@@ -1,0 +1,314 @@
+@media (max-width:472px){
+.cuerpo {
+    background-image: url(../assets/img/Figurafondo.png);
+    background-size: 100% 25%;
+    background-repeat: no-repeat;
+    
+    
+    
+    .inicio-section-1{
+        padding-top: 8rem;
+        .txt-sec1{
+            width: 15.625rem;
+            h1{
+                text-align: center;
+                font-size: 2rem;
+            }
+            p{
+                text-align: center;
+                font-size: 1rem;
+            }
+        }
+        
+        .img-sec1{
+            width: 15.625rem;
+        }
+    }
+    
+    .inicio-section-2 {
+        button{
+            a{
+                margin: 1.25rem 3rem;
+            }
+        }
+        .txt-sec2{
+            margin: 4rem 0rem 4rem;
+            h2{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+    
+
+    .inicio-section-3{
+        .txt-sec3{
+            h4{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .inicio-section-4{
+        margin:3rem;
+        text-align: center;
+        .inicio-section-4-text{
+            width: 15.625rem;
+            h4{
+                font-size: 2rem;
+                width: 15.625rem;
+                margin-left: 0;
+            }
+            p{
+                font-size: 1rem;
+                width: 15.625rem;
+            }
+        }
+        .inicio-section-4-img{
+            width: 15.625rem;
+            img{
+                width: 15.625rem;
+                align-items: center;
+                justify-content: center;
+                padding-top: 1.25rem;
+                order: 2;
+            }
+        }
+    }
+    
+    .inicio-section-5{
+        .txt-sec5{
+            h4{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+    
+}
+.botonflotante{
+    button{
+        margin-left: 70%;
+    }
+}
+
+.img-sec1-servicios{
+    background-image: url(../assets/img/servicios_sections/fondo-sec1.png);
+    background-size: 100% 15%;
+    background-repeat: no-repeat;
+
+    .servicios-section-1{
+        .servicios-sec1{
+            @include flex (row,center,center);
+            width: 100%;
+            background-image: url(../assets/img/servicios_sections/sec1.png);
+            background-size: 450px;
+            background-repeat: no-repeat;
+            background-position: center;
+            h1{
+                font-size: 2rem;
+                padding: .625rem 3rem;
+            }
+        }
+    }
+    .portfolio-section-4{
+        .servicios-section-4-text{
+            width: 15.625rem;
+            order: 1;
+            h4{
+                font-size: 2rem;
+                width: 15.625rem;
+                margin-left: 0;
+            }
+            p{
+                font-size: 1rem;
+                width: 15.625rem;
+            }
+        }
+        
+        
+        .servicios-section-4-img{
+            width: 15.625rem;
+            order: 2;
+            img{
+                width: 15.625rem;
+                align-items: center;
+                justify-content: center;
+                padding-top: 1.25rem;
+            }
+        }
+    }
+}
+
+
+
+header {
+    grid-template-columns: 10% 62% 20%;
+    .nav-space2{
+        .navBar{
+            .navBar1{
+                width: 68%;
+                img {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+
+
+.artilces-inicio{
+    .art1{
+        width: 14rem;
+    }
+    
+    .art2{
+        width: 14rem;
+    }
+    
+    .art3{
+        width: 14rem;
+    }
+}
+
+.galeria-section2{
+    .gal1-s2{
+        width: 100%;
+    }
+}
+
+
+.img-sec1-nosotros{
+    .nosotros-section-1{
+        .nosotros-sec1{
+            background-size: 500px;
+            h1{
+                font-size: 2rem;
+                padding: .625rem 2rem;
+            }
+        }
+    }
+    .nosotros-section-3{
+        .nos-txt-sec3{
+            h4{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+    
+    .sec2-nosotros{
+        .text1-sec2-nosotros{
+            h2{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+        .text2-sec2-nosotros{
+            h2{
+                text-align: center;
+                font-size: 2rem;
+                padding: 1.625rem 1.5rem 0rem;
+            }
+            h3{
+                text-align: center;
+                font-size: 2rem;
+                padding: 0rem 1.5rem .625rem;
+            }
+            p{
+                text-align: center;
+                font-size: 1rem;
+                padding: .625rem 1.5rem;
+            }
+            a p{
+                font-size: 1rem;
+                padding: .625rem 1.5rem;
+                text-align: center;
+            }
+        }
+        
+    }
+}
+
+
+
+
+.portfolio-section-1{
+    .s1-portfolio-sec1{
+        h1{
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+            font-size: 2rem;
+            color: $white;
+            padding: .625rem 1.5rem;
+            border: none;
+            background-image: linear-gradient(to right, $pink, $purple);
+            border-radius: 3.125rem;
+            border-color: $white;
+            border-width: .4875rem;
+            border-style:solid;
+            filter: drop-shadow(2px 8px 5px rgba(0, 0, 0, 0.241));
+            p{
+                font-size: 1rem;
+                filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.61));
+            }
+        }
+    }
+}
+
+.contacto-section-1{
+    .s1-contacto-sec1{
+        text-align: center;
+        width: 250px;
+        h1{
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+            font-size: 2rem;
+            color: $white;
+            padding: 0rem 0rem;
+            border: none;
+            background-image: linear-gradient(to right, $pink, $purple);
+            border-radius: 3.125rem;
+            border-color: $white;
+            border-width: .4875rem;
+            border-style:solid;
+            filter: drop-shadow(2px 8px 5px rgba(0, 0, 0, 0.241));
+        }
+        p{
+            font-size: 1rem;
+            filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.562));
+        }
+    }
+}
+
+
+
+.form-contacto{
+    .size-form{
+        #form-style::-webkit-input-placeholder {
+            text-align: center;
+        }
+        
+        .btn-form{
+            width: 13.75rem;
+        }
+    }
+}
+
+
+
+}

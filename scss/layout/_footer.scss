@@ -1,0 +1,51 @@
+footer{
+    position: relative;
+    
+    .footerstyle{
+        @include flex(column, center, center);
+        background-image: url(../assets/img/index_sections/Fondofooter.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 15.625rem;
+        div> a img{
+            position: absolute;
+            top: -5rem;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        div> p{
+            font-family: "Poppins", sans-serif;
+            font-weight: medium;
+            font-size: 1.5rem;
+            color: #ffffff35;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .icon-footer{
+            margin-top: 3.125rem;
+            margin-bottom: 1.25rem;
+            ul{
+                @include flex(row, none,none);
+                gap: 1.25rem;
+                list-style: none;
+                color: $purple;
+                li{
+                    width: 2.5rem;
+                    -webkit-filter: invert(100%);
+                    -moz-filter: invert(100%);
+                    filter: invert(100%);
+                }
+            }
+        }
+        .line-footer{
+            width: 90%;
+            height: .3125rem;
+            background-color:#ffffff35;
+        }
+    }
+}
+

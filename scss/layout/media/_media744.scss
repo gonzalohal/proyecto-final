@@ -1,0 +1,45 @@
+@media (max-width:744px){
+
+.img-sec1-nosotros{
+        .sec2-nosotros{
+            .text2-sec2-nosotros{
+                h2{
+                    text-align: center;
+                    font-size: 2rem;
+                    padding: 1.625rem 0rem 0rem;
+                }
+                h3{
+                    text-align: center;
+                    font-size: 2rem;
+                    padding: 0rem 0rem .625rem;
+                }
+                p{
+                    text-align: center;
+                    font-size: 1rem;
+                    padding: .625rem 1.5rem;
+                }
+                a p{
+                    font-size: 1rem;
+                    padding: .625rem 1.5rem;
+                    text-align: center;
+                }
+            }
+        }
+    
+}
+
+.form-contacto{
+    .size-form{
+        #form-style::-webkit-input-placeholder {
+            text-align: center;
+        }
+    }
+}
+
+
+.img-sec1-servicios{
+    background-image: url(../assets/img/servicios_sections/fondo-sec1.png);
+    background-size: 100% 30%;
+    background-repeat: no-repeat;
+}
+}

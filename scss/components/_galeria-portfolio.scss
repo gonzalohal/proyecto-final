@@ -1,0 +1,14 @@
+.galeria-section2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .gal1-s2{
+        width: 50%;
+        ul{
+            list-style: none;
+            li img{
+                width: 100%;
+            }
+        }
+    }
+}

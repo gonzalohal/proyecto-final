@@ -1,0 +1,138 @@
+.img-sec1-nosotros{
+    background-image: url(../assets/img/nosotros_sections/fondo-nosotros.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    .nosotros-section-1{
+        @include flex(row,center,center);
+        position: relative;
+        top: 0;
+        .nosotros-sec1{
+            @include flex(row,center,center);
+            width: 100%;
+            height: 100vh;
+            background-image: url(../assets/img/nosotros_sections/sec1-img.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            h1{
+                text-align: center;
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                font-size: 3rem;
+                color: $white;
+                padding: .625rem 6.5rem;
+                border: none;
+                background-image: linear-gradient(to right, $pink, $purple);
+                border-radius: 3.125rem;
+                border-color: $white;
+                border-width: .4875rem;
+                border-style:solid;
+                filter: drop-shadow(2px 8px 5px rgba(0, 0, 0, 0.241));
+            }
+        }
+    }
+    .sec2-nosotros{
+        @include flex(column,center,center);
+        gap: 20px;
+        .text1-sec2-nosotros{
+            h2{
+                text-align: center;
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                font-size: 3rem;
+                color: $pink;
+                padding: .625rem 6.5rem;
+            }
+            p{
+                text-align: center;
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                font-size: 1.5rem;
+                color: $grey;
+                padding: .625rem 6.5rem;
+            }
+        }
+        .text2-sec2-nosotros{
+            border: 5px solid $purple2;
+            border-radius: 5.3125rem;
+            width: 55%;
+            h2{
+                text-align: left;
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                font-size: 4rem;
+                color: $pink;
+                padding: .625rem 6.5rem;
+            }
+            h3{
+                text-align: left;
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                font-size: 4rem;
+                color: $purple;
+                padding: .625rem 6.5rem;
+            }
+            p{
+                text-align: left;
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                font-size: 1.5rem;
+                color: $grey;
+                padding: .625rem 6.5rem;
+            }
+            a{
+                text-decoration: none;
+                p{
+                    /* text-align: center; */
+                    font-family: "Poppins", sans-serif;
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                    color: $pink;
+                    padding: .625rem 6.5rem;
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    .nosotros-section-3{
+        @include flex(column,center,center);
+        text-align: center;
+        flex-wrap: wrap;
+        padding-top: 3.125rem;
+        .nos-txt-sec3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+            h4{
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                font-size: 3rem;
+                color: $purple;
+            }
+            p{
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+                font-size: 1.5rem;
+                color: $grey;
+            }
+        }
+        .nos-slide-sec5{
+            margin-top: -1.875rem;
+            width: 80%;
+            ul{
+                @include flex(row,center,center);
+                list-style: none;
+                gap: 3.125rem;
+                flex-wrap: wrap;
+            }
+            
+            .n1-ul{
+                padding-top: 10%;
+            }
+        }
+    }
+
+}
